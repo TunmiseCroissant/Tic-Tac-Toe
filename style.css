@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.cell {
+    border: 2px solid;
+    border-color: black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 70px;
+    transition: 1s ease;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    background-color: pink;
+}
+
+#gameContainer {
+    margin: auto;
+    text-align: center;
+}
+
