@@ -96,7 +96,7 @@ function restart() {
         container.style.color = "black"
         cells.forEach(cell => {cell.style.backgroundColor = "pink"})
         container.style.color = "rgba(0, 0, 0, 0)"
-        setTimeout(reset(), 1000)
+        setTimeout(reset(), 10000)
     }
 } 
 
@@ -111,7 +111,7 @@ function showWinner(indexes) {
                 cells[index].style.backgroundColor = "black"
                 count++;
                 if (count === 3 ) {
-                    setTimeout(resolve(), 1000)
+                    setTimeout(resolve(), 10000)
                 }
             })
     })
